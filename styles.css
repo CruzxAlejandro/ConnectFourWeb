@@ -1,0 +1,14 @@
+.bg-dark {
+    background-color: lightgrey !important;
+}
+
+.btn-primary {
+    background-color:#0f0f0f;
+    border-color:#0f0f0f;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: white;
+    color:#0f0f0f !important;
+}
