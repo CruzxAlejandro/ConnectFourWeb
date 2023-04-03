@@ -1,6 +1,6 @@
 
 let gameboard = [
-    [".", ".", ".", ".", ".", ".", ".","."],
+    [".", ".", "hi", ".", ".", ".", ".","."],
     [".", ".", ".", ".", ".", ".", ".","."],
     [".", ".", ".", ".", ".", ".", ".","."],
     [".", ".", ".", ".", ".", ".", ".","."],
@@ -14,9 +14,14 @@ let gameboard = [
 let gameboardPrint = gameboard.length + gameboard[0].length;
 
 
+if(gameboard[0][2] == "hi") {
+document.getElementById("r1c1").style.backgroundColor = "red";
+};
 
-document.getElementById("gameboardMat").innerHTML = gameboardPrint;
 
+if(gameboard[0][3] == ".") {
+document.getElementById("r1c7").style.backgroundColor = "blue";
+};
 
 
 
